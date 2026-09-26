@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Infinity Marketing Solution — AI Lead Capture for Home Services</title>
 <meta name="description" content="AI voice agents, chatbots and automation that answer every call, qualify leads and book jobs 24/7 for roofing, HVAC, plumbing and solar businesses in the USA and Canada.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <style>
   :root{
     --bg:#0a0a0b;
@@ -347,8 +348,7 @@
   .foot-contact{display:flex; flex-direction:column; gap:8px; margin-top:16px; font-size:13px; color:var(--muted);}
   .foot-contact a{display:flex; align-items:center; gap:8px;}
   .foot-contact svg{width:15px;height:15px;}
-  .social{display:flex; gap:8px; margin-top:16px;}
-  .social a{font-size:12px; padding:6px 12px; border-radius:999px;}
+  .social{display:flex; gap:8px; margin-top:16px;}  .social a{font-size:12px; padding:6px 12px; border-radius:999px;}
 
   @media (max-width: 768px) {
   .nav-actions .btn {
@@ -797,8 +797,7 @@ document.getElementById('pricingGrid').innerHTML = `
     <div class="price-current"><span class="amount" id="currentPrice">$${pricing.monthly.toLocaleString()}</span><span class="period" id="currentPeriod">/month</span><span class="saving" id="currentSaving"></span></div>
     <a href="#purchase" class="btn btn-primary brand-gradient buy-now">Buy Now</a>
     <ul class="price-list">${pricing.features.map(f=>`<li>${iconSvg('check')}<span>${f}</span></li>`).join('')}</ul>
-  </div>
-`;
+  </div>`;
 
 const faqs = [
   ["How quickly can my AI system go live?","Most systems launch within 7–14 days of your strategy call, depending on how much customization your workflows need."],
